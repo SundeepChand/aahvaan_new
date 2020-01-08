@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/aahvaan_new/static/css/main.aecb1057.chunk.css",
-    "main.js": "/aahvaan_new/static/js/main.32f02797.chunk.js",
-    "main.js.map": "/aahvaan_new/static/js/main.32f02797.chunk.js.map",
+    "main.js": "/aahvaan_new/static/js/main.b6e07a8c.chunk.js",
+    "main.js.map": "/aahvaan_new/static/js/main.b6e07a8c.chunk.js.map",
     "runtime-main.js": "/aahvaan_new/static/js/runtime-main.ff963023.js",
     "runtime-main.js.map": "/aahvaan_new/static/js/runtime-main.ff963023.js.map",
     "static/css/2.ed35d847.chunk.css": "/aahvaan_new/static/css/2.ed35d847.chunk.css",
-    "static/js/2.6d4e77c2.chunk.js": "/aahvaan_new/static/js/2.6d4e77c2.chunk.js",
-    "static/js/2.6d4e77c2.chunk.js.map": "/aahvaan_new/static/js/2.6d4e77c2.chunk.js.map",
+    "static/js/2.a67a8b0c.chunk.js": "/aahvaan_new/static/js/2.a67a8b0c.chunk.js",
+    "static/js/2.a67a8b0c.chunk.js.map": "/aahvaan_new/static/js/2.a67a8b0c.chunk.js.map",
     "index.html": "/aahvaan_new/index.html",
-    "precache-manifest.3cbb5543c4162b8780d7c8ae5fefbd4f.js": "/aahvaan_new/precache-manifest.3cbb5543c4162b8780d7c8ae5fefbd4f.js",
+    "precache-manifest.052d024be895225e070cc2d5abd6301d.js": "/aahvaan_new/precache-manifest.052d024be895225e070cc2d5abd6301d.js",
     "service-worker.js": "/aahvaan_new/service-worker.js",
     "static/css/2.ed35d847.chunk.css.map": "/aahvaan_new/static/css/2.ed35d847.chunk.css.map",
     "static/css/main.aecb1057.chunk.css.map": "/aahvaan_new/static/css/main.aecb1057.chunk.css.map",
-    "static/js/2.6d4e77c2.chunk.js.LICENSE": "/aahvaan_new/static/js/2.6d4e77c2.chunk.js.LICENSE",
+    "static/js/2.a67a8b0c.chunk.js.LICENSE": "/aahvaan_new/static/js/2.a67a8b0c.chunk.js.LICENSE",
     "static/media/20180327074549_IMG_6866-01.jpg": "/aahvaan_new/static/media/20180327074549_IMG_6866-01.6b00d38d.jpg",
-    "static/media/contentBg.svg": "/aahvaan_new/static/media/contentBg.480650b8.svg",
+    "static/media/PlayersImage.svg": "/aahvaan_new/static/media/PlayersImage.6f67e8c7.svg",
+    "static/media/contentBg.svg": "/aahvaan_new/static/media/contentBg.320708b4.svg",
     "static/media/logo.png": "/aahvaan_new/static/media/logo.d0a28145.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ff963023.js",
     "static/css/2.ed35d847.chunk.css",
-    "static/js/2.6d4e77c2.chunk.js",
+    "static/js/2.a67a8b0c.chunk.js",
     "static/css/main.aecb1057.chunk.css",
-    "static/js/main.32f02797.chunk.js"
+    "static/js/main.b6e07a8c.chunk.js"
   ]
 }
