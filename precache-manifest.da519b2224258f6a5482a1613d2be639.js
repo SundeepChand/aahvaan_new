@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b922d916969a22f363c0ae0f8211e22d",
+    "revision": "4cd87a86f65ad03f70af2ff8209a8aa6",
     "url": "/aahvaan_new/index.html"
   },
   {
-    "revision": "72e528ed09bec5ab67d8",
+    "revision": "7b0bccf3d2622fd5d6ca",
     "url": "/aahvaan_new/static/css/2.ed35d847.chunk.css"
   },
   {
-    "revision": "a679612219394328cafb",
-    "url": "/aahvaan_new/static/css/main.57e872d7.chunk.css"
+    "revision": "101a414e2c88089faea0",
+    "url": "/aahvaan_new/static/css/main.38ecc4df.chunk.css"
   },
   {
-    "revision": "72e528ed09bec5ab67d8",
-    "url": "/aahvaan_new/static/js/2.cf1071ed.chunk.js"
+    "revision": "7b0bccf3d2622fd5d6ca",
+    "url": "/aahvaan_new/static/js/2.8f9cf2da.chunk.js"
   },
   {
-    "revision": "a7e9e012a3f716fd81cf8afb9ff9cff5",
-    "url": "/aahvaan_new/static/js/2.cf1071ed.chunk.js.LICENSE"
+    "revision": "6d8f057f12ab0a384ad50077f988ea07",
+    "url": "/aahvaan_new/static/js/2.8f9cf2da.chunk.js.LICENSE"
   },
   {
-    "revision": "a679612219394328cafb",
-    "url": "/aahvaan_new/static/js/main.cd0e9f4f.chunk.js"
+    "revision": "101a414e2c88089faea0",
+    "url": "/aahvaan_new/static/js/main.a66e9fa0.chunk.js"
   },
   {
     "revision": "629b721d49fd7cf77aa1",
@@ -56,12 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aahvaan_new/static/media/7.c13acab7.jpg"
   },
   {
-    "revision": "6f67e8c715d953e35bbea5eeb0b45cf7",
-    "url": "/aahvaan_new/static/media/PlayersImage.6f67e8c7.svg"
+    "revision": "8f6e1e29b73002cbc473b4af88f31572",
+    "url": "/aahvaan_new/static/media/PlayersImage.8f6e1e29.png"
   },
   {
-    "revision": "320708b463ed2f7933f5f7fd4180e892",
-    "url": "/aahvaan_new/static/media/contentBg.320708b4.svg"
+    "revision": "96df31b6d75bca2f494f9e4f05c5f9e0",
+    "url": "/aahvaan_new/static/media/bg2.96df31b6.svg"
+  },
+  {
+    "revision": "40b1ae24042b6f04e0592d71efccb295",
+    "url": "/aahvaan_new/static/media/football.40b1ae24.png"
   },
   {
     "revision": "d0a28145726e60bbd664eaaaa66610e7",

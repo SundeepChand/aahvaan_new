@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/aahvaan_new/static/css/main.57e872d7.chunk.css",
-    "main.js": "/aahvaan_new/static/js/main.cd0e9f4f.chunk.js",
-    "main.js.map": "/aahvaan_new/static/js/main.cd0e9f4f.chunk.js.map",
+    "main.css": "/aahvaan_new/static/css/main.38ecc4df.chunk.css",
+    "main.js": "/aahvaan_new/static/js/main.a66e9fa0.chunk.js",
+    "main.js.map": "/aahvaan_new/static/js/main.a66e9fa0.chunk.js.map",
     "runtime-main.js": "/aahvaan_new/static/js/runtime-main.ff963023.js",
     "runtime-main.js.map": "/aahvaan_new/static/js/runtime-main.ff963023.js.map",
     "static/css/2.ed35d847.chunk.css": "/aahvaan_new/static/css/2.ed35d847.chunk.css",
-    "static/js/2.cf1071ed.chunk.js": "/aahvaan_new/static/js/2.cf1071ed.chunk.js",
-    "static/js/2.cf1071ed.chunk.js.map": "/aahvaan_new/static/js/2.cf1071ed.chunk.js.map",
+    "static/js/2.8f9cf2da.chunk.js": "/aahvaan_new/static/js/2.8f9cf2da.chunk.js",
+    "static/js/2.8f9cf2da.chunk.js.map": "/aahvaan_new/static/js/2.8f9cf2da.chunk.js.map",
     "index.html": "/aahvaan_new/index.html",
-    "precache-manifest.75c2f3f5088c5246909d10d7529627c6.js": "/aahvaan_new/precache-manifest.75c2f3f5088c5246909d10d7529627c6.js",
+    "precache-manifest.da519b2224258f6a5482a1613d2be639.js": "/aahvaan_new/precache-manifest.da519b2224258f6a5482a1613d2be639.js",
     "service-worker.js": "/aahvaan_new/service-worker.js",
     "static/css/2.ed35d847.chunk.css.map": "/aahvaan_new/static/css/2.ed35d847.chunk.css.map",
-    "static/css/main.57e872d7.chunk.css.map": "/aahvaan_new/static/css/main.57e872d7.chunk.css.map",
-    "static/js/2.cf1071ed.chunk.js.LICENSE": "/aahvaan_new/static/js/2.cf1071ed.chunk.js.LICENSE",
+    "static/css/main.38ecc4df.chunk.css.map": "/aahvaan_new/static/css/main.38ecc4df.chunk.css.map",
+    "static/js/2.8f9cf2da.chunk.js.LICENSE": "/aahvaan_new/static/js/2.8f9cf2da.chunk.js.LICENSE",
     "static/media/1.jpg": "/aahvaan_new/static/media/1.e946707e.jpg",
     "static/media/2.jpg": "/aahvaan_new/static/media/2.0e880dcf.jpg",
     "static/media/3.jpg": "/aahvaan_new/static/media/3.3ec4c2d6.jpg",
@@ -21,15 +21,16 @@
     "static/media/5.jpg": "/aahvaan_new/static/media/5.fe8825af.jpg",
     "static/media/6.jpg": "/aahvaan_new/static/media/6.b16b85ed.jpg",
     "static/media/7.jpg": "/aahvaan_new/static/media/7.c13acab7.jpg",
-    "static/media/PlayersImage.svg": "/aahvaan_new/static/media/PlayersImage.6f67e8c7.svg",
-    "static/media/contentBg.svg": "/aahvaan_new/static/media/contentBg.320708b4.svg",
+    "static/media/PlayersImage.png": "/aahvaan_new/static/media/PlayersImage.8f6e1e29.png",
+    "static/media/bg2.svg": "/aahvaan_new/static/media/bg2.96df31b6.svg",
+    "static/media/football.png": "/aahvaan_new/static/media/football.40b1ae24.png",
     "static/media/logo.png": "/aahvaan_new/static/media/logo.d0a28145.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ff963023.js",
     "static/css/2.ed35d847.chunk.css",
-    "static/js/2.cf1071ed.chunk.js",
-    "static/css/main.57e872d7.chunk.css",
-    "static/js/main.cd0e9f4f.chunk.js"
+    "static/js/2.8f9cf2da.chunk.js",
+    "static/css/main.38ecc4df.chunk.css",
+    "static/js/main.a66e9fa0.chunk.js"
   ]
 }
