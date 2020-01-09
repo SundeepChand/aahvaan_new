@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/aahvaan_new/static/css/main.38ecc4df.chunk.css",
-    "main.js": "/aahvaan_new/static/js/main.a66e9fa0.chunk.js",
-    "main.js.map": "/aahvaan_new/static/js/main.a66e9fa0.chunk.js.map",
+    "main.css": "/aahvaan_new/static/css/main.85b002e2.chunk.css",
+    "main.js": "/aahvaan_new/static/js/main.47c88e1f.chunk.js",
+    "main.js.map": "/aahvaan_new/static/js/main.47c88e1f.chunk.js.map",
     "runtime-main.js": "/aahvaan_new/static/js/runtime-main.ff963023.js",
     "runtime-main.js.map": "/aahvaan_new/static/js/runtime-main.ff963023.js.map",
     "static/css/2.ed35d847.chunk.css": "/aahvaan_new/static/css/2.ed35d847.chunk.css",
-    "static/js/2.8f9cf2da.chunk.js": "/aahvaan_new/static/js/2.8f9cf2da.chunk.js",
-    "static/js/2.8f9cf2da.chunk.js.map": "/aahvaan_new/static/js/2.8f9cf2da.chunk.js.map",
+    "static/js/2.4e05574d.chunk.js": "/aahvaan_new/static/js/2.4e05574d.chunk.js",
+    "static/js/2.4e05574d.chunk.js.map": "/aahvaan_new/static/js/2.4e05574d.chunk.js.map",
     "index.html": "/aahvaan_new/index.html",
-    "precache-manifest.da519b2224258f6a5482a1613d2be639.js": "/aahvaan_new/precache-manifest.da519b2224258f6a5482a1613d2be639.js",
+    "precache-manifest.ba35e457cd129f08e631ef45f53dd5b2.js": "/aahvaan_new/precache-manifest.ba35e457cd129f08e631ef45f53dd5b2.js",
     "service-worker.js": "/aahvaan_new/service-worker.js",
     "static/css/2.ed35d847.chunk.css.map": "/aahvaan_new/static/css/2.ed35d847.chunk.css.map",
-    "static/css/main.38ecc4df.chunk.css.map": "/aahvaan_new/static/css/main.38ecc4df.chunk.css.map",
-    "static/js/2.8f9cf2da.chunk.js.LICENSE": "/aahvaan_new/static/js/2.8f9cf2da.chunk.js.LICENSE",
+    "static/css/main.85b002e2.chunk.css.map": "/aahvaan_new/static/css/main.85b002e2.chunk.css.map",
+    "static/js/2.4e05574d.chunk.js.LICENSE": "/aahvaan_new/static/js/2.4e05574d.chunk.js.LICENSE",
     "static/media/1.jpg": "/aahvaan_new/static/media/1.e946707e.jpg",
     "static/media/2.jpg": "/aahvaan_new/static/media/2.0e880dcf.jpg",
     "static/media/3.jpg": "/aahvaan_new/static/media/3.3ec4c2d6.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.ff963023.js",
     "static/css/2.ed35d847.chunk.css",
-    "static/js/2.8f9cf2da.chunk.js",
-    "static/css/main.38ecc4df.chunk.css",
-    "static/js/main.a66e9fa0.chunk.js"
+    "static/js/2.4e05574d.chunk.js",
+    "static/css/main.85b002e2.chunk.css",
+    "static/js/main.47c88e1f.chunk.js"
   ]
 }
