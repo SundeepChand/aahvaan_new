@@ -1,24 +1,23 @@
 {
   "files": {
     "main.css": "/aahvaan_new/static/css/main.47d7f314.chunk.css",
-    "main.js": "/aahvaan_new/static/js/main.fdab3467.chunk.js",
-    "main.js.map": "/aahvaan_new/static/js/main.fdab3467.chunk.js.map",
+    "main.js": "/aahvaan_new/static/js/main.0b194045.chunk.js",
+    "main.js.map": "/aahvaan_new/static/js/main.0b194045.chunk.js.map",
     "runtime-main.js": "/aahvaan_new/static/js/runtime-main.ff963023.js",
     "runtime-main.js.map": "/aahvaan_new/static/js/runtime-main.ff963023.js.map",
     "static/css/2.3c1ddb0a.chunk.css": "/aahvaan_new/static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.9a86ec32.chunk.js": "/aahvaan_new/static/js/2.9a86ec32.chunk.js",
-    "static/js/2.9a86ec32.chunk.js.map": "/aahvaan_new/static/js/2.9a86ec32.chunk.js.map",
+    "static/js/2.c662c150.chunk.js": "/aahvaan_new/static/js/2.c662c150.chunk.js",
+    "static/js/2.c662c150.chunk.js.map": "/aahvaan_new/static/js/2.c662c150.chunk.js.map",
     "index.html": "/aahvaan_new/index.html",
-    "precache-manifest.3607a4aedc5f6d1e743f51d85273307f.js": "/aahvaan_new/precache-manifest.3607a4aedc5f6d1e743f51d85273307f.js",
+    "precache-manifest.42a2f9511247de10f5f6caf7255a44bd.js": "/aahvaan_new/precache-manifest.42a2f9511247de10f5f6caf7255a44bd.js",
     "service-worker.js": "/aahvaan_new/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/aahvaan_new/static/css/2.3c1ddb0a.chunk.css.map",
     "static/css/main.47d7f314.chunk.css.map": "/aahvaan_new/static/css/main.47d7f314.chunk.css.map",
-    "static/js/2.9a86ec32.chunk.js.LICENSE": "/aahvaan_new/static/js/2.9a86ec32.chunk.js.LICENSE",
+    "static/js/2.c662c150.chunk.js.LICENSE": "/aahvaan_new/static/js/2.c662c150.chunk.js.LICENSE",
     "static/media/1.jpg": "/aahvaan_new/static/media/1.1c80084f.jpg",
     "static/media/2.jpg": "/aahvaan_new/static/media/2.034a77a7.jpg",
     "static/media/3.jpg": "/aahvaan_new/static/media/3.8a7bf608.jpg",
     "static/media/4.jpg": "/aahvaan_new/static/media/4.12996e32.jpg",
-    "static/media/5.jpg": "/aahvaan_new/static/media/5.b39f4b6d.jpg",
     "static/media/6.jpg": "/aahvaan_new/static/media/6.57ec596d.jpg",
     "static/media/7.jpg": "/aahvaan_new/static/media/7.eddade05.jpg",
     "static/media/8.jpg": "/aahvaan_new/static/media/8.b93302b3.jpg",
@@ -29,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.ff963023.js",
     "static/css/2.3c1ddb0a.chunk.css",
-    "static/js/2.9a86ec32.chunk.js",
+    "static/js/2.c662c150.chunk.js",
     "static/css/main.47d7f314.chunk.css",
-    "static/js/main.fdab3467.chunk.js"
+    "static/js/main.0b194045.chunk.js"
   ]
 }
