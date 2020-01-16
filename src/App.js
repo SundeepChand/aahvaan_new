@@ -3,8 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import { createMuiTheme } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
+import { createMuiTheme, Toolbar, TextField } from '@material-ui/core';
 import { Gallery, GalleryImage } from 'react-gesture-gallery';
 import Paper from '@material-ui/core/Paper';
 import { Link } from 'react-router-dom';
@@ -48,25 +47,6 @@ const images = [
   img8,
 ];
 
-const theme = createMuiTheme({
-  palette: {
-    primary: {
-      // light: will be calculated from palette.primary.main,
-      main: '#D98825',
-      // dark: will be calculated from palette.primary.main,
-      // contrastText: will be calculated to contrast with palette.primary.main
-    },
-    secondary: {
-      light: '#F2B84B',
-      main: '#D98825',
-      // dark: will be calculated from palette.secondary.main,
-      contrastText: '#ffcc00',
-    },
-    // error: will use the default color
-  },
-});
-
-
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -108,9 +88,6 @@ const useStyles = makeStyles(theme => ({
     height: 'auto',
     backgroundColor: 'white',
   },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
   about: {
     marginTop: '10px',
     marginBottom: '30px',
@@ -125,8 +102,9 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
   },
   register: {
-    padding: '20px 0px 20px 0px',
+    padding: '20px 0px 0px 0px',
     height: '90vh',
+    overflowY: 'hidden',
   },
   title: {
     flexGrow: 1,
@@ -240,36 +218,46 @@ const useStyles = makeStyles(theme => ({
     height: '60vh',
     width: '310px',
   },
-  paper: {
-    height: '30vw',
-    width: '30vw',
-    maxWidth: 160,
-    maxHeight: 160,
-    minWidth: 140,
-    minHeight: 140,
-    textAlign:'center',
-    fontSize:'30px',
-    border:'solid',
-    borderRadius:'50%',
-    borderWidth:'10px',
-    borderColor:'orange',
-  },
+  
   control: {
     backgroundColor:'grey'
   },
   count:{
-    paddingTop: '40px',
-    color:'grey'
+    textAlign:'center',
+    background:'#212529',
+    fontSize:'30px',
+    color:'white',
+    borderWidth:'0',
   },
   countLabel: {
-    width: '100%',
     textAlign:'center',
-    fontSize:'15px',
+    background:'#212529',
+    fontSize:'30px',
+    color:'white',
+    borderWidth:'0',
   },
   modal: {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+  },
+  rootToken: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+    color:'white',
+    background:'orange'
+  },
+  titleToken: {
+    flexGrow: 1,
+    textAlign:'center',
+    color:'white',
+  },
+  input:{
+    flexGrow: 1,
+    textAlign:'left',
+    color:'white'
   },
   modalFade: {
     color: 'white',
@@ -351,6 +339,26 @@ export default function ButtonAppBar() {
   };
   //---------------------------------------------------------------
 
+  //-------------- Functionality for Token Input ------------------
+  const [tokenInput, setTokenInput] = React.useState('')
+
+  const handleTokenInputChange = (event) => {
+    setTokenInput(event.target.value)
+  }
+
+  const handleTokenSubmit = () => {
+    if (tokenInput !== '') {
+      /*
+      -
+      -
+      -
+      Write the code to handle token submit here.
+      */
+      console.log('Token number = ', tokenInput)
+    }
+  }
+  //---------------------------------------------------------------
+
   return (
     <div className="app" id="top">
       {/*---------Navbar----------------*/}
@@ -429,7 +437,7 @@ export default function ButtonAppBar() {
             just that. With us, you wil be able to advertise outside campus and tap audiences of
             various age groups. With us, you are not restricted to college students.
           </p>
-          <Button variant="contained" style={{ backgroundColor: '#F9712D', color: 'white', width: '150px', margin: '10px 0px' }}>
+          <Button component={ Link } to="/council" variant="contained" style={{ backgroundColor: '#F9712D', color: 'white', width: '150px', margin: '10px 0px' }}>
             MEET COUNCIL
           </Button>
         </div>
@@ -472,40 +480,68 @@ export default function ButtonAppBar() {
       {/*-------------------------------------*/}
 
       {/*-----------Counter section-------------*/}
-      <VisibilitySensor onChange={onVisibilityChange} offset={{
-        top:
-          10
-      }} delayedCall>
-        <div style={{display: 'flex', justifyContent: 'space-around', marginBottom: '25px', flexWrap: 'wrap', background: 'linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898',
-        backgroundBlendMode: 'multiply,multiply', padding: '10px 0px'}}>
-          <Paper className={classes.paper}>
-            <div className={classes.count}>
-              <CountUp start={0} end={didViewCountUp ? 12 : 0} duration={3} />
-            </div>
-            <div className={classes.countLabel}>
-              <Typography>Events</Typography>
-            </div>
-          </Paper>
-
-          <Paper className={classes.paper}>
-            <div className={classes.count}>
-              <CountUp start={0} end={didViewCountUp ? 490000 : 0} duration={3} />
-            </div>
-            <div className={classes.countLabel}>
-              <Typography>Reach</Typography>
-            </div>
-          </Paper>
-
-          <Paper className={classes.paper}>
-            <div className={classes.count}>
-              <CountUp start={0} end={didViewCountUp ? 40000 : 0} duration={3} />
-            </div>
-            <div className={classes.countLabel}>
-              <Typography>Footfall</Typography>
-            </div>
-          </Paper>
+      <div className={classes.rootToken}>
+        <div style={{background:'#343A40', borderBottom:'1px solid #F9712D'}}>
+          <Toolbar>
+            <Typography variant='h6' className={classes.titleToken} >
+              View application status:
+            </Typography>
+            <Typography className={classes.input}>
+              <TextField 
+                value={tokenInput}
+                onChange={handleTokenInputChange}
+                variant="filled"
+                style={{ margin: 8, backgroundColor: 'gray' }}
+                placeholder="Enter Token Number"
+                margin="normal"
+                InputLabelProps={{
+                  shrink: true,
+                }} />
+            </Typography>
+            <Typography>
+              <Button onClick={handleTokenSubmit} variant="contained" style={{ backgroundColor: '#F9712D', color: 'white', margin: '10px'}}>
+                GO
+              </Button>
+            </Typography>
+          </Toolbar>
         </div>
-      </VisibilitySensor>
+        
+        <VisibilitySensor onChange={onVisibilityChange} offset={{
+          top:
+            10
+        }} delayedCall>
+          <div style={{display: 'flex', justifyContent: 'space-around', marginBottom: '25px', flexWrap: 'wrap', background:'#212529',
+          padding: '10px 0px'}}>
+            <Paper className={classes.paper}>
+              <div className={classes.count}>
+                <CountUp start={0} end={didViewCountUp ? 12 : 0} duration={3} />
+              </div>
+              <div className={classes.countLabel}>
+                <Typography variant='h6'>Events</Typography>
+              </div>
+            </Paper>
+  
+            <Paper>
+              <div className={classes.count}> 
+                <CountUp start={0} end={didViewCountUp ? 490000 : 0} duration={3} />
+              </div>
+              <div className={classes.countLabel}>
+                <Typography variant='h6'>Reach</Typography>
+              </div>
+            </Paper>
+  
+            <Paper>
+              <div className={classes.count}>
+                <CountUp start={0} end={didViewCountUp ? 40000 : 0} duration={3} />
+              </div>
+              <div className={classes.countLabel}>
+                <Typography variant='h6'>Footfall</Typography>
+              </div>
+            </Paper>
+          </div>
+        </VisibilitySensor>
+      </div>
+
       {/*---------------------------------------*/}
 
       {/*------- Bar for sponsers-------*/}
